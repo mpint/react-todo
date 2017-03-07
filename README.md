@@ -1,5 +1,5 @@
 # Docs
 
-React/Redux(saga)
+React/Redux(saga) on Node LTS or higher
 
 `yarn && yarn start`
