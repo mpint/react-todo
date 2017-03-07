@@ -1,0 +1,49 @@
+@import './colors.scss';
+@import './ie8-snap-mode.scss';
+
+@import '../../../node_modules/unsemantic/_grid.scss';
+
+
+body {
+  margin: 0 auto;
+  background: $test-blue;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.no-content {
+  color: $disabled;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 1.4em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.1em;
+  margin: 0;
+}

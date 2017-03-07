@@ -1,0 +1,52 @@
+exports[`AppRoot should render 1`] = `
+<div>
+  <div
+    className="menu-container">
+    <ul>
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+         
+        Home
+         
+      </a>
+      <span>
+        |
+      </span>
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+         
+        Interview
+         
+      </a>
+      <span>
+        |
+      </span>
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+         
+        Credits
+         
+      </a>
+    </ul>
+  </div>
+  <div
+    className="grid-container" />
+  <div
+    style={
+      Object {
+        "bottom": 10,
+        "color": "white",
+        "fontSize": 10,
+        "left": 10,
+        "position": "fixed",
+        "zIndex": 1500,
+      }
+    }>
+    ver. 0.0.0
+     (c8d512b)
+  </div>
+</div>
+`;

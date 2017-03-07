@@ -1,0 +1,29 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "include": [ "src" ],
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": [
+    "plugins/summarize",
+    "plugins/markdown"
+  ],
+  "templates": {
+    "baseline": {
+      "components": {
+        "footer": false
+      },
+      "sourceFiles": {
+        "singleLink": true
+      }
+    },
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true
+    }
+  }
+}
