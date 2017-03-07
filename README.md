@@ -1,3 +1,5 @@
 # Docs
 
-React/Redux(saga)/koa2
+React/Redux(saga)
+
+`yarn && yarn start`
